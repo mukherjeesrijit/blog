@@ -336,11 +336,4 @@ Beautiful, right? These ideas excite me a lot: how seemingly two different ideas
     <kbd> <img src="images/overall_geometry.png" alt="Overall Geometry" width="700"/> </kbd>
 </div>
 
-I hope you have enjoyed reading the article. Here is a question for you.
-
-##### What do you think is the geometry behind the expected value of a random variable $Y$ given $X$? Think about it using the tools and ideas in the article.
-
-
-
-
-
+I hope you have enjoyed reading the article. Here is a question for you. What do you think is the geometry behind the expected value of a random variable $Y$ given $X$? Think about it using the tools and ideas in the article.
