@@ -228,21 +228,21 @@ Variance is nothing but the square of the length of the pure random part of $X$.
 
 $$
 \begin{gathered}
-\operatorname{Var}(X)=|X-E(X)|^2 \\
-\operatorname{Var}(X)=E\left((X-E(X))^2\right)
+\text{Var}(X)=|X-E(X)|^2 \\
+\text{Var}(X)=E\left((X-E(X))^2\right)
 \end{gathered}
 $$
 
 Let's see just the Pythagoras theorem at play.
 
 <div align="center">
-    <kbd> <img src="images/geometry_23.png" alt="Geometry 3" width="500"/> </kbd>
+    <kbd> <img src="images/geometry_3.png" alt="Geometry 3" width="500"/> </kbd>
 </div>
 
 Thus, we get this beautiful and simple equation.
 
 $$
-\operatorname{Var}(X)+(E(X))^2=E\left(X^2\right)
+\text{Var}(X)+(E(X))^2=E\left(X^2\right)
 $$
 
 Wow! This is elegant.
@@ -284,7 +284,61 @@ $$
 \end{gathered}
 $$
 
+Let's define the pure random part of a random variable in the following way.
 
+$$
+\begin{aligned}
+& X_p=\text { Pure Random }(X) \\
+& Y_p=\text { Pure Random }(Y)
+\end{aligned}
+$$
+
+Now, let's try to understand the dot product of the pure random portions of $X$ and $Y$.
+
+$$
+\begin{gathered}
+X_p \odot Y_p=\operatorname{Cov}(X, Y) \\
+\left|X_p\right|^2=\operatorname{Var}(X) \\
+\left|Y_p\right|^2=\operatorname{Var}(Y)
+\end{gathered}
+$$
+
+Can you recognize the following now?
+
+$$
+\begin{gathered}
+\frac{X_p \odot Y_p}{\left|X_p\right|\left|Y_p\right|}=\cos \left(\theta_{X_p, Y_p}\right) \\
+\theta_{X_p, Y_p}=\text { angle bw } X_p \text { and } Y_p
+\end{gathered}
+$$
+
+The expression on the left-hand side is nothing but the correlation of the random variables $X$, and $Y$.
+
+<div align="center">
+    <kbd> <img src="images/geometry_4.png" alt="Geometry 4" width="500"/> </kbd>
+</div>
+
+Thus, we get
+
+* Correlation of two random variables $X$, and $Y$ measures the angle between the pure random part of $X$ and $Y$.
+* By the cosine inequality, we also get that correlation lies between -1 and 1.
+* Also, if the correlation between the random variables $X$, and $Y$ is 0 implies, that their pure random portions are perpendicular in some sense.
+
+<div align="center">
+    <kbd> <img src="images/geometry_5.png" alt="Geometry 5" width="500"/> </kbd>
+</div>
+
+Beautiful, right? These ideas excite me a lot: how seemingly two different ideas are connected together in an aesthetic geometric fashion. There is more to this geometry when you will explore the idea of conditional expectation and variance, smoothing property of expectation, Adam's and Eve's Laws, and so much more too. You can explore a portion of probability theory through the lens of linear algebra, and a portion through calculus. But, that's the task of the passionate, and excited readers.
+
+## A graphical representation of our exotic wisdom today.
+
+<div align="center">
+    <kbd> <img src="images/birdeye_geometry.png" alt="Bird Eye Geometry" width="500"/> </kbd>
+</div>
+
+Here is a question for you.
+
+### What do you think is the geometry behind the expected value of a random variable $Y$ given $X$? Think about it using the tools and ideas in the article.
 
 
 
