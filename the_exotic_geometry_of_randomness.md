@@ -297,9 +297,9 @@ Now, let's try to understand the dot product of the pure random portions of $X$ 
 
 $$
 \begin{gathered}
-X_p \odot Y_p=\operatorname{Cov}(X, Y) \\
-\left|X_p\right|^2=\operatorname{Var}(X) \\
-\left|Y_p\right|^2=\operatorname{Var}(Y)
+X_p \odot Y_p=\text{Cov}(X, Y) \\
+\left|X_p\right|^2=\text{Var}(X) \\
+\left|Y_p\right|^2=\text{Var}(Y)
 \end{gathered}
 $$
 
