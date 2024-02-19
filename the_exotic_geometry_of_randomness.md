@@ -194,8 +194,95 @@ Observe that is asking nothing but for which random variable in the space of rea
 
 We can easily show by calculus that the value is minimized at $c$ = the expected value of $X$. In other words, the expectation of a random value is the value in the real numbers, which is closest to the random variable $X$.
 
+<div align="center">
+    <kbd> <img src="images/geometry_1.png" alt="Geometry 1" width="500"/> </kbd>
+</div>
 
+Observe that the distance is minimized for the perpendicular projection. Hence, the expectation of a random variable $X$ is nothing but the projection of the random variable $X$ on the space of constant real numbers. In another sense, the best real constant that can best approximate a random thing $X$ is its expected value. Also, note that if you take a different distance, the constant will change. Exotic, right?
 
+## The Exotic Geometry of Variance
+
+As they say variance of random variable measures the amount of randomness. The lesser the variance, the lesser the randomness. Let's visualize the variance. Let's understand a random variable $X$ first. 
+
+$$
+X=E(X)+(X-E(X))
+$$
+
+The Expectation is nothing but a non-random quantity. It is the closest non-random quantity that can approximate $X$, the best. Hence, the rest of the part is the pure random thing corresponding to the random variable $X$.
+
+$$
+\begin{gathered}
+X=\text { Random Variable } \\
+E(X)=\text { Non-Random Part of } X \\
+X-E(X)=\text { Pure Random Part of } X
+\end{gathered}
+$$
+
+You can visualize it in the following way.
+
+<div align="center">
+    <kbd> <img src="images/geometry_2.png" alt="Geometry 2" width="500"/> </kbd>
+</div>
+
+Variance is nothing but the square of the length of the pure random part of $X$.
+
+$$
+\begin{gathered}
+\operatorname{Var}(X)=|X-E(X)|^2 \\
+\operatorname{Var}(X)=E\left((X-E(X))^2\right)
+\end{gathered}
+$$
+
+Let's see just the Pythagoras theorem at play.
+
+<div align="center">
+    <kbd> <img src="images/geometry_23.png" alt="Geometry 3" width="500"/> </kbd>
+</div>
+
+Thus, we get this beautiful and simple equation.
+
+$$
+\operatorname{Var}(X)+(E(X))^2=E\left(X^2\right)
+$$
+
+Wow! This is elegant.
+
+I can't tell you how surreal it feels to see through this connection between high school math and randomness. Moreover, it tells you that the shorter the length of the pure randomness in a random variable, the lesser its variance. That's exactly what we were looking for. Let's now stop for a while, and enjoy the final paradigm of the angle between two random variables.
+
+## The Exotic Geometry of Correlation
+
+We know that the dot product of two vectors contains information about the angle between two vectors. Let's digress to the geometry of the dot product of vectors.
+
+$$
+\begin{gathered}
+\frac{\vec{x} \cdot \vec{y}}{|\vec{x}||\vec{y}|}=\cos \left(\theta_{x, y}\right) \\
+\theta_{x, y}=\text { angle bw } x \text { and } y
+\end{gathered}
+$$
+
+Also, we know that the cosine of any angle lies between -1 and 1. Hence, we can write that
+
+$$
+-1 \leq \frac{\vec{x} \cdot \vec{y}}{|\vec{x}||\vec{y}|} \leq 1
+$$
+
+Thus, if two vectors are perpendicular the cosine of the angle between them is a right angle. Let's try to map it to the language of random variables. We have already defined some notations before for the easy transition of the idea from one space to another. Let's look into that, once again.
+
+$$
+\begin{gathered}
+E(X Y)=X \odot Y \\
+E\left(X^2\right)=|X|^2
+\end{gathered}
+$$
+
+Now, we will work with the pure random part of the random variable.
+
+$$
+\begin{gathered}
+\text{Pure Random } (X) = X - E(X) \\
+\text{Pure Random } (Y) = Y - E(Y)
+\end{gathered}
+$$
 
 
 
