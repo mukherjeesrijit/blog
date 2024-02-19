@@ -333,12 +333,12 @@ Beautiful, right? These ideas excite me a lot: how seemingly two different ideas
 ## A graphical representation of our exotic wisdom today.
 
 <div align="center">
-    <kbd> <img src="images/birdeye_geometry.png" alt="Bird Eye Geometry" width="500"/> </kbd>
+    <kbd> <img src="images/birdeye_geometry.png" alt="Bird Eye Geometry" width="700"/> </kbd>
 </div>
 
 Here is a question for you.
 
-### What do you think is the geometry behind the expected value of a random variable $Y$ given $X$? Think about it using the tools and ideas in the article.
+##### What do you think is the geometry behind the expected value of a random variable $Y$ given $X$? Think about it using the tools and ideas in the article.
 
 
 
