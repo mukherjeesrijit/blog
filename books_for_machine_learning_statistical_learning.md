@@ -33,9 +33,9 @@ The process is simple. You will have a main set of books to learn. If the book i
 * A First Course in Probability in Sheldon Ross
 
 ## Books for Statistics - Inference
-Mathematical Statistics and Data Analysis by John A. Rice
-Statistical Inference by George Casella and Roger L. Berger 
-Statistical Inference by Vijay K. Rohatgi
+* Mathematical Statistics and Data Analysis by John A. Rice
+* Statistical Inference by George Casella and Roger L. Berger 
+* Statistical Inference by Vijay K. Rohatgi
 
 ## Mathematics for Machine Learning
 *  Mathematics for Machine Learning by Marc Peter Deisenroth
