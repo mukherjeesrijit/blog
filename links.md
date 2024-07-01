@@ -2,3 +2,5 @@
 * [Class Activation Map Github](https://github.com/tetutaro/class_activation_mapping)
 * [Yann Le Cun's talks and presentations](https://drive.google.com/drive/folders/0BxKBnD5y2M8NUXhZaXBCNXE4QlE?resourcekey=0-WtYv0wV-8DFNsFWfRUcpsw&usp=drive_link)
 * [Deep Learning Fundamentals Course by Sebastian Raschka](https://lightning.ai/courses/deep-learning-fundamentals/)
+* [Bioinformatics Algorithms Book](https://www.bioinformaticsalgorithms.org/)
+[* Rosalind: Bioinformatics Algorithms Live Coding Platform with Exercises](https://rosalind.info/problems/locations/)
