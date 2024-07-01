@@ -1,0 +1,305 @@
+---
+title: "Exploratory Data Analysis"
+author: "Srijit Mukherjee"
+date: "23 June 2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, size = "tiny")
+```
+
+## Types of Data Variables in R
+
+
+- Quantitative
+
+    - Continuous
+    - Discrete
+      
+- Qualitative
+
+    - Nominal
+    - Ordinal
+
+## Datasets in R
+
+If you type the following command, you will get to know all the data sets in R.
+
+```{r, echo = TRUE, comment = ''}
+data()
+library(DAAG)
+```
+
+## Understanding Data in
+
+Let's see the top of the data matrix.
+
+```{r, echo = TRUE, comment = ''}
+data = ais
+head(data, n = 3)
+```
+
+## Handling Data in R
+
+Let's see the bottom of the data matrix.
+
+```{r, echo = TRUE, comment = ''}
+tail(data, n = 3)
+```
+
+## Handling Data in R
+
+Let's see a concise summary of the data matrix.
+
+```{r, echo = TRUE, comment = ''}
+str(data)
+```
+
+## Handling Data in R
+
+```{r, echo = TRUE, comment = ''}
+class(data)
+class(data$mpg)
+dim(data)
+names(data)
+```
+
+## Handling Data in R
+
+Exploratory Data Analysis
+
+```{r, echo = TRUE, comment = ''}
+summary(data)
+```
+
+## Univariate Quantitative Data Analysis
+
+Exploratory Data Analysis
+
+```{r, echo = TRUE, comment = ''}
+mean(data$hg)
+var(data$hg)
+sd(data$hg)
+min(data$hg)
+```
+
+
+## Univariate Quantitative Data Analysis
+
+Exploratory Data Analysis
+
+```{r, echo = TRUE, comment = ''}
+max(data$hg)
+median(data$hg)
+quantile(data$hg)
+range(data$hg)
+```
+
+## Univariate Quantitative Data Analysis
+
+Summary of the Data
+
+```{r, echo = TRUE, comment = ''}
+summary(data$hg)
+```
+
+
+## Univariate Quantitative Data Analysis
+
+Histogram
+
+```{r, echo = TRUE, comment = ''}
+hist(data$hg, xlab = "Hemaglobin concentration", probability = TRUE, , main = "Histogram of Hemaglobin concentration")
+```
+
+
+## Univariate Quantitative Data Analysis
+
+Kernel Density
+
+```{r, echo = TRUE, comment = ''}
+d <- density(data$hg)
+plot(d, main = "Kernel density of Hemaglobin concentration")
+polygon(d, col = "red", border = "blue")
+```
+
+## Univariate Quantitative Data Analysis
+
+Box Plot
+
+```{r, echo = TRUE, comment = ''}
+boxplot(data$hg,
+        main = toupper("Boxplot of Hemaglobin concentration"),
+        ylab = "Hemaglobin concentration",
+        col = "red")
+```
+
+## Univariate Qualitative Data Analysis
+
+Frequency Distribution Table  
+
+```{r, echo = TRUE, comment = ''}
+table(data$sport)
+```
+
+## Univariate Qualitative Data Analysis
+
+Vertical Bar Plot
+
+```{r, echo = TRUE, comment = ''}
+barplot(table(data$sport), main="Count of participants in different sports for study", xlab="Sports",ylab="Count", border="red", col="blue", density=10)
+```
+
+
+## Univariate Qualitative Data Analysis
+
+Horizontal Bar Plot
+
+```{r, echo = TRUE, comment = ''}
+barplot(table(data$sport), main="Count of participants in different sports for study", xlab="Sports",ylab="Count", col = "darkred", horiz = TRUE)
+```
+
+## Univariate Qualitative Data Analysis
+
+How to do probability bar plot?
+
+Pie Chart
+
+```{r, echo = TRUE, comment = ''}
+pie(table(data$sport), labels = levels(data$sport))
+```
+
+
+## Multivariate Exploratory Data Analysis
+
+## Categorical vs Categorical
+
+Contigency Table
+
+```{r, echo = TRUE, comment = ''}
+sex_vs_sport = data[,12:13]
+table(sex_vs_sport)
+#xtabs(~ sex + sport, sex_vs_sport)
+```
+
+
+## Categorical vs Categorical
+
+Bar Plots Vertical Comparison
+
+```{r, echo = TRUE, comment = ''}
+barplot(table(sex_vs_sport),
+        main = "Sports Participation Distribution by Sex",
+        xlab = "Sport",
+        col = c("red","green")
+        
+)
+legend("topleft",
+       c("Female","Male"),
+       fill = c("red","green")
+)
+```
+
+
+## Categorical vs Categorical
+
+
+Bar Plot Beside Comparison
+
+```{r, echo = TRUE, comment = ''}
+barplot(table(sex_vs_sport),
+        main = "Sports Participation Distribution by Sex",
+        xlab = "Sport",
+        col = c("red","green"),
+        beside =  TRUE
+)
+legend("topleft",
+       c("Female","Male"),
+       fill = c("red","green")
+)
+```
+
+
+## Categorical vs Categorical
+
+
+Pie Chart
+
+```{r, echo = TRUE, comment = ''}
+pie(table(data$sport), labels = levels(data$sport))
+```
+
+
+## Continuous vs Categorical
+
+Comparison of Box Plot
+
+```{r, echo = TRUE, comment = ''}
+boxplot(hg~sport,
+        data=data,
+        main="Different boxplots for each sport",
+        xlab="Sport",
+        ylab="Hemaglobin concentration",
+        col="orange",
+        border="brown"
+)
+```
+
+
+
+## Continuous vs Categorical
+
+Comparison of Histogram
+
+```{r, echo = TRUE, comment = ''}
+library(ggplot2)
+
+hg_vs_sport = data[,c(4,13)]
+ggplot(hg_vs_sport, aes(hg, fill = sport)) + geom_density(alpha = 0.2)
+
+```
+
+
+## Continuous vs Categorical
+
+Comparison of Histogram
+
+```{r, echo = TRUE, comment = ''}
+library(ggplot2)
+
+hg_vs_sex = data[,c(4,12)]
+ggplot(hg_vs_sex, aes(hg, fill = sex)) + geom_density(alpha = 0.2)
+
+```
+
+
+## Continuous vs Categorical
+
+ Comparing Summary Data
+ 
+```{r, echo = TRUE, comment = ''}
+by(hg_vs_sex, hg_vs_sex$sex, summary)
+```
+
+## Continuous vs Continuous
+
+Plot
+ 
+```{r, echo = TRUE, comment = ''}
+plot(data$wt ~ data$ht , data,
+            xlab="Weight", ylab="Height",
+            main="Scatter Plot")
+```
+
+## Continuous vs Continuous
+
+Scatter Plot
+ 
+```{r, echo = TRUE, comment = ''}
+library(car)
+scatterplot(data$wt ~ data$ht , data,
+            xlab="Weight", ylab="Height",
+            main="Enhanced Scatter Plot")
+```
+
