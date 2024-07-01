@@ -1,3 +1,4 @@
 * [Programming != Coding by Leslie Lamport](https://youtu.be/uyLy7Fu4FB4?si=xkWUb8s6oKZmmSGt)
 * [Class Activation Map Github](https://github.com/tetutaro/class_activation_mapping)
 * [Yann Le Cun's talks and presentations](https://drive.google.com/drive/folders/0BxKBnD5y2M8NUXhZaXBCNXE4QlE?resourcekey=0-WtYv0wV-8DFNsFWfRUcpsw&usp=drive_link)
+* [Deep Learning Fundamentals Course by Sebastian Raschka](https://lightning.ai/courses/deep-learning-fundamentals/)
