@@ -5,4 +5,4 @@
 * [Bioinformatics Algorithms Book](https://www.bioinformaticsalgorithms.org/)
 * [Rosalind: Bioinformatics Algorithms Live Coding Platform with Exercises](https://rosalind.info/problems/locations/)
 * [Bioinformatics Course Best by CMU](https://compeau.cbd.cmu.edu/teaching/essential-mathematics/)
-  
+* [Podcast of Dr. David Stutz](https://www.youtube.com/watch?v=IumJcB7bE20)
