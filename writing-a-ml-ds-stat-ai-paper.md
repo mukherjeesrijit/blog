@@ -71,4 +71,10 @@
 - **Figures and Tables**: Use figures and tables effectively to illustrate key points.
 - **Revisions**: Thoroughly revise and proofread the paper before submission.
 
-You have to read more papers to understand this, and commit to it.
+You have to read more papers to understand this and commit to it. While this structure is generally applicable across ML, Deep Learning, Statistics, and AI papers, there may be some field-specific variations: 
+* Deep Learning papers often include detailed descriptions of neural network architectures and training procedures.
+* Statistics papers may place more emphasis on theoretical proofs and statistical analyses.
+* AI papers might include sections on ethical considerations or societal impacts.
+
+It's important to note that the specific structure can vary based on the conference or journal requirements, the nature of the research, and the field's conventions. However, the overall flow of introducing the problem, describing the method, presenting results, and discussing implications remains consistent across these fields.When writing your paper, focus on clearly explaining your novel contributions, providing sufficient details for reproducibility, and critically analyzing your results. Contextualizing your work within existing literature and demonstrating its significance to the field is crucial, regardless of the specific subfield within ML, Deep Learning, Statistics, or AI.
+
