@@ -16,3 +16,4 @@
 * [Autograd Andrej Karpathy 1](https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=1&t=9s)  [Autograd Andrej Karpathy 2](https://www.youtube.com/watch?v=q8SA3rM6ckI&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=5)
 * [Minitorch - a course for learning pytorch and deep learning](https://github.com/minitorch/minitorch) [Link 2](https://minitorch.github.io/) - Reminder it has a Github classroom course. Interesting.
 * I enjoy automatic differentiation. I am always looking for a better course. Here is [one](https://kitchingroup.cheme.cmu.edu/f19-06623/19-introduction-to-autograd.html).
+* [Purdue University Autograd Lecture Notes](https://engineering.purdue.edu/DeepLearn/pdf-kak/AutogradAndCGP.pdf)
