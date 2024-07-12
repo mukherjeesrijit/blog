@@ -9,3 +9,5 @@
 * [Pytorch another resource](https://www.learnpytorch.io/)
 * [Sebastian Raschka  Pytorch / Deep Learning Course](https://youtube.com/playlist?list=PLTKMiZHVd_2KJtIXOW0zFhFfBaJJilH51&si=iX7nAdxerqMHqpj5)
 * [Sebastian Raschka Pytorch Intro 1 hour](https://www.youtube.com/watch?v=nf-r9gnum7o)
+* Sebastian Rashka's different tutorials [Link 1](https://youtu.be/B5GHmm3KN2A?si=MWk9ykeVz6GUYECs) [Link 2](https://youtu.be/0yRsbh1bgtk?si=Ve760pgsKnkx8wDH)
+* [Full deep learning course Sebastian Raschka](https://youtube.com/playlist?list=PLTKMiZHVd_2KJtIXOW0zFhFfBaJJilH51&si=HNcZyRQdsV_5w0QJ) 
