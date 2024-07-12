@@ -18,4 +18,4 @@
 * I enjoy automatic differentiation. I am always looking for a better course. Here is [one](https://kitchingroup.cheme.cmu.edu/f19-06623/19-introduction-to-autograd.html).
 * [Purdue University Autograd Lecture Notes](https://engineering.purdue.edu/DeepLearn/pdf-kak/AutogradAndCGP.pdf)
 * [People who started autograd](https://github.com/HIPS). [Lecture by the people](https://github.com/HIPS/autograd/blob/master/docs/tutorial.md).
-* See [wikipedia for autograd](https://en.wikipedia.org/wiki/Automatic_differentiation)
+* See [wikipedia for autograd](https://en.wikipedia.org/wiki/Automatic_differentiation), and [autodidact - a pedagogical implementation of autograd](https://github.com/mattjj/autodidact?tab=readme-ov-file)
