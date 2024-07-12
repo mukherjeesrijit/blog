@@ -6,3 +6,4 @@
 * [Pytorch Tutorials](https://pytorch.org/tutorials/beginner/basics/quickstart_tutorial.html)
 * [Torch Tutorial in R](https://skeydan.github.io/Deep-Learning-and-Scientific-Computing-with-R-torch/tensors.html)
 * [I love this course of NYU of Deep Learning with Pytorch because it initiates neural network as mathematical logic, and then goes into tensors](https://github.com/Atcold/NYU-DLSP20/tree/master)
+* [Pytorch another resource](https://www.learnpytorch.io/)
