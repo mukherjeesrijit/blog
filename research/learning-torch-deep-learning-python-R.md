@@ -14,3 +14,4 @@
 * Broadcasting in Tensors [Link 1](https://youtu.be/4Ehb_is-MFU?si=MEx0u79-voaxaHkP) [Link 2](https://youtu.be/QscEWm0QTRY?si=_sNAPnEaAgGJTDZk)
 * [Autograd](https://youtu.be/j1-r1vO2a_o?si=zpDnKa3_veFNbxkH) [Pytorch Tutorial Autograd](https://pytorch.org/tutorials/beginner/introyt/autogradyt_tutorial.html) [Pytorch Autograd Mechanics](https://pytorch.org/docs/stable/notes/autograd.html)
 * [Autograd Andrej Karpathy 1](https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=1&t=9s)  [Autograd Andrej Karpathy 2](https://www.youtube.com/watch?v=q8SA3rM6ckI&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=5)
+* [Minitorch - a course for learning pytorch and deep learning](https://github.com/minitorch/minitorch) [Link 2](https://minitorch.github.io/) - Reminder it has a Github classroom course. Interesting.
