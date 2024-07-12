@@ -19,3 +19,4 @@
 * [Purdue University Autograd Lecture Notes](https://engineering.purdue.edu/DeepLearn/pdf-kak/AutogradAndCGP.pdf)
 * [People who started autograd](https://github.com/HIPS). [Lecture by the people](https://github.com/HIPS/autograd/blob/master/docs/tutorial.md).
 * See [wikipedia for autograd](https://en.wikipedia.org/wiki/Automatic_differentiation), and [autodidact - a pedagogical implementation of autograd](https://github.com/mattjj/autodidact?tab=readme-ov-file)
+*[ Deep Learning with Pytorch book](https://isip.piconepress.com/courses/temple/ece_4822/resources/books/Deep-Learning-with-PyTorch.pdf)
