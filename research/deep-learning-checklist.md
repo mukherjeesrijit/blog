@@ -43,3 +43,5 @@ resource: [Understanding Deep Learning](https://udlbook.github.io/udlbook/)
 * Full fledged deep learning projects
 
 resource: [Sebastian Raschka](https://youtube.com/playlist?list=PLTKMiZHVd_2KJtIXOW0zFhFfBaJJilH51&si=owb1DXMuaGjapgVn)
+
+### Deep Learning Project with Pytorch Organization and Examples
