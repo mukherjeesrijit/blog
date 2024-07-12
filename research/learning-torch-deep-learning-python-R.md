@@ -17,3 +17,4 @@
 * [Minitorch - a course for learning pytorch and deep learning](https://github.com/minitorch/minitorch) [Link 2](https://minitorch.github.io/) - Reminder it has a Github classroom course. Interesting.
 * I enjoy automatic differentiation. I am always looking for a better course. Here is [one](https://kitchingroup.cheme.cmu.edu/f19-06623/19-introduction-to-autograd.html).
 * [Purdue University Autograd Lecture Notes](https://engineering.purdue.edu/DeepLearn/pdf-kak/AutogradAndCGP.pdf)
+* [People who started autograd](https://github.com/HIPS). [Lecture by the people](https://github.com/HIPS/autograd/blob/master/docs/tutorial.md).
