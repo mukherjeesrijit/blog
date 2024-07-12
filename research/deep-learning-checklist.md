@@ -7,7 +7,7 @@
 * machine learning foundations
 * experimentations in machine learning
 
-resource: ML Foundations: [Sebastian Raschka](https://youtube.com/playlist?list=PLTKMiZHVd_2KJtIXOW0zFhFfBaJJilH51&si=owb1DXMuaGjapgVn)
+resource: ML Foundations: [Sebastian Raschka](https://youtube.com/playlist?list=PLTKMiZHVd_2KJtIXOW0zFhFfBaJJilH51&si=owb1DXMuaGjapgVn), along with coding of everything look for courses
 
 ### Deep Learning 1 Foundations
 * neural network mathematical logic - why it works
