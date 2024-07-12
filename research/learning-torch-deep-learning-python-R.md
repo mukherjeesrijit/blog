@@ -12,4 +12,4 @@
 * Sebastian Rashka's different tutorials [Link 1](https://youtu.be/B5GHmm3KN2A?si=MWk9ykeVz6GUYECs) [Link 2](https://youtu.be/0yRsbh1bgtk?si=Ve760pgsKnkx8wDH)
 * [Full deep learning course Sebastian Raschka](https://youtube.com/playlist?list=PLTKMiZHVd_2KJtIXOW0zFhFfBaJJilH51&si=HNcZyRQdsV_5w0QJ)
 * Broadcasting in Tensors [Link 1](https://youtu.be/4Ehb_is-MFU?si=MEx0u79-voaxaHkP) [Link 2](https://youtu.be/QscEWm0QTRY?si=_sNAPnEaAgGJTDZk)
-* [Autograd](https://youtu.be/j1-r1vO2a_o?si=zpDnKa3_veFNbxkH)
+* [Autograd](https://youtu.be/j1-r1vO2a_o?si=zpDnKa3_veFNbxkH) [Pytorch Tutorial Autograd](https://pytorch.org/tutorials/beginner/introyt/autogradyt_tutorial.html)
